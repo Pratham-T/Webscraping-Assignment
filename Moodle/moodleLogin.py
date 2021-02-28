@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import getpass
 
-PATH = ".\chromedriver.exe"
+PATH = "..\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
 driver.get("https://moodle.iitd.ac.in/")
